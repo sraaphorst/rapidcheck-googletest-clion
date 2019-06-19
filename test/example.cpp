@@ -1,5 +1,5 @@
 /**
- * example.cpp
+ * example_gt.cpp
  *
  * By Sebastian Raaphorst, 2019.
  *
@@ -22,4 +22,7 @@ TEST(FactorialTest, Positive) {
     EXPECT_EQ(factorial(3), 6);
     EXPECT_EQ(factorial(4), 24);
     EXPECT_EQ(factorial(5), 120);
+
+    // Fails:
+    //EXPECT_EQ(factorial(6), 72);
 }
