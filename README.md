@@ -1,6 +1,6 @@
-# RapidCheck test environment
+# RapidCheck + Google Test Environment
 
-This is simply a bare-bones test environment for using RapidCheck and Google Tests
+This is simply a bare-bones test environment for using RapidCheck and Google Test
 for future projects.
 
 Note that RapidCheck, I believe, requires LLVM and not GCC. Thus, the first step
